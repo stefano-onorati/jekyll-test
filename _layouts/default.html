@@ -3,15 +3,16 @@
 <head>
 <meta charset="utf-8" />
 <title>NEW JEKYLL TEST</title>
+<link href="{{site.baseurl}}/css/common.css" rel="stylesheet" />
 </head>
 <body>
 <header>
 	<h1>JEKYLL TESTS</h1>
-	{% include nav.html %}
+	{% include nav.html navclass='nav-top' %}
 </header>
 {{content}}
 <footer>
-	{% include nav.html %}
+	{% include nav.html navclass='nav-bottom' %}
 </footer
 </body>
 </html>
