@@ -1,0 +1,16 @@
+p {
+	color:#ff0000;
+}
+
+.current {
+	background-color:#00fb00;
+	color:#ffffff;
+}
+
+.nav-top {
+	font-size:1.2em;
+}
+
+.nav-bottom {
+	font-size:0.8em;
+}
