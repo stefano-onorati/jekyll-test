@@ -1,13 +1,13 @@
 ---
 layout: news
-title: News
+title: Blog
 ---
 
 <h1>Second Jekyll page</h1>
 <p>this is my second Jekyll page</p>
 
 <ul>
-	{% for post in site.categories.news limit:3 %}
+	{% for post in site.categories.blog limit:3 %}
 		<li>
 			<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
 			<p>{{post.meta}}</p>

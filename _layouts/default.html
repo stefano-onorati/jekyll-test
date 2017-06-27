@@ -2,8 +2,8 @@
 <html lang="en-CA">
 <head>
 <meta charset="utf-8" />
-<title>NEW JEKYLL TEST</title>
-<link href="{{site.baseurl}}/css/common.css" rel="stylesheet" />
+<title>{% if page.title %}{{page.title}} | {% endif %} Jekyll Test</title>
+<link href="{{site.baseurl}}/css/main.css" rel="stylesheet" />
 </head>
 <body>
 <header>

@@ -1,0 +1,11 @@
+<ul>
+	{% for size in site.pages %}
+		{% if size.type == include.type %}
+			<li>
+				<a href="{{site.baseurl}}{{size.url}}">
+					{{size.title}} <p>{{size.meta}}</p>	
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
